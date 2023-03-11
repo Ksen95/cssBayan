@@ -1,0 +1,14 @@
+body{
+    margin: 5% 20%;
+}
+div{
+    color: blue;
+    cursor: pointer;
+}
+h1{
+    color: black;
+}
+div:hover{
+    color: black;
+}
+
