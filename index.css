@@ -15,7 +15,12 @@ h1{
 div:hover{
     color: black;
 }
-.workLife{
+
+img{
+   display: none;
     width: 50%;
-    margin: 0 30%;
+    margin: 1% 30%;
+}
+h3:hover + img{
+    display: block;
 }
