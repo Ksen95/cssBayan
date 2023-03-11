@@ -1,5 +1,9 @@
 body{
     margin: 5% 20%;
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 568px;
+    min-height: 320px;
 }
 div{
     color: blue;
@@ -11,4 +15,7 @@ h1{
 div:hover{
     color: black;
 }
-
+.workLife{
+    width: 50%;
+    margin: 0 30%;
+}
