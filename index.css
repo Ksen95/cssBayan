@@ -1,7 +1,6 @@
 body{
     margin: 5% 25%;
     font-size: 18px;
-   
 }
 main{
     color: blue;
@@ -13,7 +12,6 @@ h1{
 }
 main:hover{
     color: black;
-    
 }
 
 .mem{
@@ -29,18 +27,15 @@ main:hover{
     float: right;
     position: relative;
     opacity: 0;
-
 }
 
 input{
     display: none; 
 }
 
- /*вид текста label при активном переключателе*/ 
 input:checked + label {
     color: black;
 }
- /*когда чекбокс активен показываем блоки с содержанием  */
  input:checked + label + .mem{
     width: 40%;
     display: block;
@@ -48,9 +43,7 @@ input:checked + label {
 div:hover .icon{
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    
 }
-
 
 input:hover + label + .mem{
     width: 40%;
@@ -59,10 +52,7 @@ input:hover + label + .mem{
 
 main:hover .icon{
     opacity: 1;
-
 }
-
-
   
 @media (max-width: 320px) {
     body{
@@ -84,7 +74,6 @@ main:hover .icon{
     input:checked + label + .mem{
     width: 50%;
     display: block;
-
     }
     .mem{
         padding: 0;
