@@ -1,10 +1,7 @@
 body{
-    margin: 5% 20%;
-    font-size: 1.5vw;
-   /* max-width: 1920px;
-    max-height: 1080px;
-    min-width: 568px;
-    min-height: 320px;*/
+    margin: 5% 25%;
+    font-size: 18px;
+   
 }
 main{
     color: blue;
@@ -65,3 +62,43 @@ main:hover .icon{
 
 }
 
+
+  
+@media (max-width: 320px) {
+    body{
+       font-size: 2vw; 
+       margin: 10%;
+    }
+
+    input:checked + label + .mem{
+    width: 50%;
+    display: block;
+    }
+}
+@media (max-width:820px) {
+    body{
+       font-size: 3vw;
+       margin: 15%; 
+    }
+
+    input:checked + label + .mem{
+    width: 50%;
+    display: block;
+
+    }
+    .mem{
+        padding: 0;
+    }
+}
+@media (width>=1920px) {
+    body{
+       font-size: 1vw; 
+       margin: 5% 30%;
+    }
+
+    input:checked + label + .mem{
+    width: 30%;
+    display: block;
+    align-content: center;
+    }
+}
