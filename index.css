@@ -16,14 +16,33 @@ main:hover{
     color: black;
 }
 
-img{
-   display: none;
+.mem{
+    width: 0%;
+    margin: 1% 25%;
+    transition-property: width;
+    transition-duration: 1.5s;
+}
+.icon{
+    width: 2%;
+    float: right;
+}
+
+input{
+    display: none; 
+}
+
+ /*вид текста label при активном переключателе*/ 
+input:checked + label {
+    color: black;
+    border-bottom: 0;
+}
+ /*когда чекбокс активен показываем блоки с содержанием  */
+input:checked + label + .mem{
     width: 50%;
-    margin: 1% 30%;
-}
-h3:hover + img{
     display: block;
 }
-a:hover + img{
-    display: block;
+
+input:hover + label + .mem{
+    width: 50%;
+   display: block; 
 }
